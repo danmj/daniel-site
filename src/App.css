@@ -31,3 +31,267 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: grey;
+
+}
+
+
+/** NAVBAR BEGINS HERE **/
+.navbar#true {
+  background-color: rgba(40, 40, 40, .95);
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 575px) {
+  .navbar {
+    background-color: rgba(19, 18, 38, .95);
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-btn {
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-item {
+    width: 0px;
+  }
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 1%;
+  top: 0;
+  margin-top: 3px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-brand:hover {
+  position: absolute;
+  left: 1%;
+  top: 0;
+  margin-top: 3px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-btn {
+  color: white;
+  border-bottom: 2px solid transparent;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  color: white;
+  border-bottom: 2px solid white;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: 0.75s;
+}
+
+
+@media screen and (max-width: 725px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+/** NAVBAR ENDS HERE **/
+
+
+/** HOME PAGE BEGINS HERE **/
+.home-div {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+
+.home-info {
+  margin-top: 10%;
+  width: 40%;
+  float: left;
+}
+
+.home-name {
+  border: 3px solid white;
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+}
+
+.home-pic {
+  margin-left: 40%;
+}
+/** HOME PAGE ENDS HERE **/
+
+
+/** PROJECTS BEGINS HERE **/
+.project-item {
+  color: white;
+}
+
+.project-text {
+  padding-top: 50px;
+}
+
+.projects-header {
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  border: 3px solid white;
+}
+
+.projects-description {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.25em;
+}
+/** PROJECTS ENDS HERE **/
+
+
+/** WRITINGS BEGINS HERE **/
+.writings-text {
+  padding-top: 50px;
+}
+
+.writings-header {
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  border: 3px solid white;
+}
+
+.writings-description {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.25em;
+}
+/** WRITINGS ENDS HERE **/
+
+/** CONTACT BEGINS HERE **/
+.link-div {
+  margin-top: 50px;
+}
+
+.fab {
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: #449DD1;
+  transition: 0.2s;
+}
+
+.contact-div {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.85);
+}
+
+.social-div {
+  float: left;
+  width: 25%;
+  padding-top: 120px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.contact-form-div {
+  float: right;
+  width: 75%;
+  padding-top: 120px;
+}
+
+.contact-text {
+  color: white;
+}
+
+.input-div {
+  margin: 10px;
+}
+
+.contact-input {
+  width: 70%;
+}
+
+.message-input {
+  width: 70%;
+  height: 120px;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 800px) {
+  .close-icon {
+    font-size: 2em;
+  }
+}
+
+.at-span {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 923px) {
+  .at-span {
+    padding-left: 0px;
+    font-size: 0px;
+  }
+}
+
+
+.fas {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.fas:hover {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: grey;
+}
+/** CONTACT ENDS HERE **/
