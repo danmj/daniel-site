@@ -107,7 +107,7 @@ class ContactContainer extends Component {
     return(
         <div className="contact-div">
           <span className="social-icon close-icon" style={{ color: "#BFC0C0"}} onClick={() => this.exitClickHandler()}>
-            <i className="fas fa-times-circle"></i>
+            <i className="fas fa-times-circle closer"></i>
           </span>
 
           <div className="social-div">
@@ -138,29 +138,16 @@ class ContactContainer extends Component {
                   {this.mediumText()}
                 </a>
             </div>
-
           </div>
 
           <div className="contact-form-div">
 
-            <h6 className="contact-text">Send an email to</h6>
-            <h5 className="contact-text">dmjung1993@gmail.com</h5>
-            <h6 className="contact-text">or alternatively fill out the form below</h6>
-            <form>
-              <div className="input-div">
-                <input className="contact-input" type="text" placeholder="Name"/>
-              </div>
-              <div className="input-div">
-                <input className="contact-input" type="text" placeholder="Subject"/>
-              </div>
-              <div className="input-div">
-                <input className="contact-input" type="text" placeholder="Email"/>
-              </div>
-              <div className="input-div">
-                <input className="message-input" type="text" placeholder="Message"/>
-              </div>
-              <button className="contact-input" type="submit">Send It</button>
-            </form>
+            <h2>Daniel Jung</h2>
+            <a href="mailto:dmjung1993@gmail.com" target="_top" style={{ textDecoration: "none", color: "white" }}><i className="fas fa-envelope emailicon"></i></a><span> dmjung1993@gmail.com</span>
+            <br />
+            <i class="fas fa-mobile"></i><span> +1 917 250 2296</span>
+            <br />
+            <a href="https://angel.co/daniel-jung-14" target="_blank" style={{ textDecoration: "none", color: "white" }}><i class="fab fa-angellist"></i></a><span> daniel-jung-14</span>
 
           </div>
 

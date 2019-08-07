@@ -93,8 +93,8 @@ body {
   border-bottom: 2px solid transparent;
   margin-left: 35px;
   margin-right: 35px;
-  padding-bottom: 5px;
   transition: 0.5s;
+  padding-bottom: 5px;
 }
 
 .nav-btn:hover {
@@ -102,11 +102,10 @@ body {
   border-bottom: 2px solid white;
   margin-left: 35px;
   margin-right: 35px;
-  padding-bottom: 5px;
   cursor: pointer;
   transition: 0.75s;
+  padding-bottom: 5px;
 }
-
 
 @media screen and (max-width: 725px) {
   .navbar-brand {
@@ -136,10 +135,25 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 1100px) {
+  .home-div {
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+}
+
 .home-info {
   margin-top: 10%;
   width: 40%;
   float: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .home-info {
+    margin-top: 10%;
+    width: 100%;
+  }
 }
 
 .home-name {
@@ -212,6 +226,15 @@ body {
   transition: 0.2s;
 }
 
+.emailicon {
+  cursor: pointer;
+}
+
+.emailicon:hover {
+  color: #449DD1;
+  transition: 0.2s;
+}
+
 .contact-div {
   position: absolute;
   margin-top: 50px;
@@ -222,21 +245,22 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(0,0,0, 0.85);
+  background-color: rgba(36, 36, 36, 0.85);
+  color: white;
 }
 
 .social-div {
   float: left;
-  width: 25%;
+  width: 50%;
   padding-top: 120px;
-  padding-left: 20px;
+  padding-left: 50px;
   text-align: left;
 }
 
 .contact-form-div {
-  float: right;
-  width: 75%;
+  margin-left: 50%;
   padding-top: 120px;
+  text-align: left;
 }
 
 .contact-text {
@@ -282,16 +306,17 @@ body {
 }
 
 
-.fas {
+.closer {
   position: absolute;
   right: 10px;
   top: 15px;
 }
 
-.fas:hover {
+.closer:hover {
   position: absolute;
   right: 10px;
   top: 15px;
   color: grey;
 }
+
 /** CONTACT ENDS HERE **/
