@@ -33,27 +33,28 @@
 }
 
 body {
-  background: grey;
-
+  background: #9099A2;
 }
 
 
 /** NAVBAR BEGINS HERE **/
 .navbar#true {
-  background-color: rgba(40, 40, 40, .95);
+  background-color: rgba(136, 145, 153, .95);
   transition: 0.6s;
 }
 
 @media screen and (max-width: 575px) {
   .navbar {
-    background-color: rgba(19, 18, 38, .95);
+    background-color: rgba(136, 145, 153, .95);
   }
 }
+
 @media screen and (max-width: 575px) {
   .nav-btn {
     margin: 0px;
   }
 }
+
 @media screen and (max-width: 575px) {
   .nav-item {
     width: 0px;
@@ -132,14 +133,14 @@ body {
   width: 80%;
   margin: auto;
   padding: 10px;
-  color: white;
+  color: #e8e6e6;
 }
 
 @media screen and (max-width: 1100px) {
   .home-div {
     justify-content: center;
     width: 100%;
-    color: white;
+    color: #e8e6e6;
   }
 }
 
@@ -158,14 +159,46 @@ body {
 
 .home-name {
   border: 3px solid white;
+  color: white;
   margin: 0 auto;
   width: 400px;
   padding: 20px;
 }
 
+@media screen and (max-width: 575px) {
+  .home-name {
+    border: 3px solid white;
+    color: white;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+  }
+}
+
 .home-pic {
   margin-left: 40%;
 }
+
+.things-made {
+  color: #D5D5D5;
+  border: 3px solid #D5D5D5;
+  margin: 0 auto;
+  padding: 20px;
+  width: 375px;
+}
+
+@media screen and (max-width: 575px) {
+  .things-made {
+    color: #D5D5D5;
+    border: 3px solid #D5D5D5;
+    margin: 0 auto;
+    padding: 20px;
+    width: 275px;
+    margin-top: 30px;
+    font-size: 1.5em;
+  }
+}
+
 /** HOME PAGE ENDS HERE **/
 
 
@@ -176,13 +209,44 @@ body {
 
 .project-text {
   padding-top: 50px;
+  color: #e8e6e6
+}
+
+.project-textarea {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 849px) {
+  .project-title-text {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-title-text {
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-title-text {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .project-title-text {
+    font-size: 1.6em;
+  }
 }
 
 .projects-header {
   margin: 0 auto;
   width: 200px;
   padding: 20px;
-  border: 3px solid white;
+  color: #b2c5ed;
+  border: 3px solid #b2c5ed;
 }
 
 .projects-description {
@@ -190,25 +254,100 @@ body {
   width: 80%;
   font-size: 1.25em;
 }
+
+.cards-section {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 698px) {
+  .cards-section {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .cards-section {
+    margin-top: 60px;
+  }
+}
+
+.projects-button {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+}
+
+.project-summary-div {
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .project-summary-div {
+    text-align: left
+  }
+}
+
+.project-card {
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+}
+
+@media screen and (max-width: 890px) {
+  .project-card {
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .project-card {
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+  }
+}
 /** PROJECTS ENDS HERE **/
 
 
 /** WRITINGS BEGINS HERE **/
 .writings-text {
   padding-top: 50px;
+  color: #e8e6e6;
 }
 
 .writings-header {
   margin: 0 auto;
   width: 200px;
   padding: 20px;
-  border: 3px solid white;
+  color: #e3c8c8;
+  border: 3px solid #e3c8c8;
 }
 
 .writings-description {
   margin: 0 auto;
   width: 80%;
   font-size: 1.25em;
+}
+
+.writing-card {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 971px) {
+  .writing-card {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .writing-card {
+    margin-top: 36px;
+  }
 }
 /** WRITINGS ENDS HERE **/
 
@@ -263,6 +402,24 @@ body {
   text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+  .social-div {
+    float: left;
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 50px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form-div {
+    margin-left: 40%;
+    padding-top: 120px;
+    text-align: left;
+  }
+}
+
 .contact-text {
   color: white;
 }
@@ -304,7 +461,6 @@ body {
     font-size: 0px;
   }
 }
-
 
 .closer {
   position: absolute;

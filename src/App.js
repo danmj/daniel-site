@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './containers/NavBar.js';
-import PageBody from './containers/PageBody.js';
 import ContactContainer from './containers/ContactContainer.js';
 import ProjectsContainer from './containers/ProjectsContainer.js';
 import WritingContainer from './containers/WritingContainer.js';
 import HomePage from './containers/HomePage.js';
-import Footer from './components/Footer.js';
 import ScrollToTop from './components/ScrollToTop.js';
 
 
@@ -42,7 +40,7 @@ class App extends Component {
 
   changeScrolled = () => {
     if(window.scrollY > 30) {
-      this.setState({ scrolled: "true" }, () => console.log(this.state.scrolled))
+      this.setState({ scrolled: "true" })
     }
     else {
       this.setState({ scrolled: "false" })

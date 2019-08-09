@@ -6,15 +6,14 @@ const ProjectItem = (props) => {
     return(
       <div className="project-item">
         <div className="project-image">
-          <img src={props.projectData.image} style={{ marginTop: "10px", height: "90%", width: "90%" }}/>
+          <img src={props.projectData.image} alt="project thumb" style={{ marginTop: "10px", height: "90%", width: "90%" }}/>
         </div>
-        <div className="project-text">
-          <h1>{props.projectData.title}</h1>
-          <p>{props.projectData.summary}</p>
-          <span><a href={props.projectData.frontend_url} style={{ textDecoration: "none", color: "white" }}>Frontend</a> </span>
+        <div className="project-textarea">
+          <h1 className="project-title-text">{props.projectData.title}</h1>
+          <div className="project-summary-div"><p>{props.projectData.summary}</p></div>
+          <span><a href={props.projectData.frontend_url} target="_blank" rel="noopener noreferrer" style={{ color: "#dedede" }}>Frontend</a> </span>
           |
-          <span> <a href={props.projectData.backend_url} style={{ textDecoration: "none", color: "white" }}>Backend</a></span>
-          <div style={{ height: "5px" }}></div>
+          <span> <a href={props.projectData.backend_url} target="_blank" rel="noopener noreferrer" style={{ color: "#dedede" }}>Backend</a></span>
         </div>
       </div>
     )

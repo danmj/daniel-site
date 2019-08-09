@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class ContactContainer extends Component {
 
@@ -106,34 +105,31 @@ class ContactContainer extends Component {
   render() {
     return(
         <div className="contact-div">
-          <span className="social-icon close-icon" style={{ color: "#BFC0C0"}} onClick={() => this.exitClickHandler()}>
-            <i className="fas fa-times-circle closer"></i>
-          </span>
 
           <div className="social-div">
-            <div className="social-icon" style={{ fontSize: "2em", color: "#BFC0C0"}} onMouseLeave={() => this.gitHubLeave()}>
-              <a href="https://github.com/danmj" target="_blank" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.gitHubLeave()}>
+              <a href="https://github.com/danmj" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
                 <i className="fab fa-github" onMouseEnter={() => this.gitHubEnter()}></i>
               </a>
               {this.gitHubText()}
             </div>
 
-            <div className="social-icon" style={{ fontSize: "2em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
-              <a href="https://twitter.com/danmjung" target="_blank" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
+              <a href="https://twitter.com/danmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
                 <i className="fab fa-twitter" onMouseEnter={() => this.twitterEnter()}></i>
               </a>
               {this.twitterText()}
             </div>
 
-            <div className="social-icon" style={{ fontSize: "2em", color: "#BFC0C0"}} onMouseLeave={() => this.linkedInLeave()}>
-              <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.linkedInLeave()}>
+              <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
                 <i className="fab fa-linkedin-in" onMouseEnter={() => this.linkedInEnter()}></i>
                 {this.linkedInText()}
               </a>
             </div>
 
-            <div className="social-icon" style={{ fontSize: "2em", color: "#BFC0C0" }} onMouseLeave={() => this.mediumLeave()}>
-                <a href="https://medium.com/@danielmjung" target="_blank" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0" }} onMouseLeave={() => this.mediumLeave()}>
+                <a href="https://medium.com/@danielmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
                   <i className="fab fa-medium" onMouseEnter={() => this.mediumEnter()}></i>
                   {this.mediumText()}
                 </a>
@@ -143,11 +139,11 @@ class ContactContainer extends Component {
           <div className="contact-form-div">
 
             <h2>Daniel Jung</h2>
-            <a href="mailto:dmjung1993@gmail.com" target="_top" style={{ textDecoration: "none", color: "white" }}><i className="fas fa-envelope emailicon"></i></a><span> dmjung1993@gmail.com</span>
+            <a href="mailto:danmjung@gmail.com" target="_top" style={{ textDecoration: "none", color: "white" }}><i className="fas fa-envelope emailicon"></i></a><span>&nbsp; danmjung@gmail.com</span>
             <br />
-            <i class="fas fa-mobile"></i><span> +1 917 250 2296</span>
+            <i class="fas fa-mobile"></i><span>&nbsp;&nbsp; +1 917 250 2296</span>
             <br />
-            <a href="https://angel.co/daniel-jung-14" target="_blank" style={{ textDecoration: "none", color: "white" }}><i class="fab fa-angellist"></i></a><span> daniel-jung-14</span>
+            <a href="https://angel.co/daniel-jung-14" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }}><i class="fab fa-angellist"></i></a><span>&nbsp;&nbsp; daniel-jung-14</span>
 
           </div>
 
