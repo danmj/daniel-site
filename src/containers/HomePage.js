@@ -17,7 +17,7 @@ class HomePage extends Component {
     if(this.props.width >= 1100) {
       return (
         <div className="home-pic">
-          <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80" alt="homepage" style={{ height: "600px", width: "400px" }} />
+          <img src="https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="homepage" style={{ height: "600px", width: "400px" }} />
         </div>
       )
     }

@@ -360,19 +360,26 @@ body {
   cursor: pointer;
 }
 
-.fab:hover {
-  color: #449DD1;
-  transition: 0.2s;
+@media screen and (min-width: 971px) {
+  .fab:hover {
+    color: #449DD1;
+    transition: 0.2s;
+  }
 }
 
 .emailicon {
   cursor: pointer;
 }
 
-.emailicon:hover {
-  color: #449DD1;
-  transition: 0.2s;
+@media screen and (min-width: 971px) {
+  .emailicon:hover {
+    color: #449DD1;
+    transition: 0.2s;
+  }
 }
+
+
+
 
 .contact-div {
   position: absolute;

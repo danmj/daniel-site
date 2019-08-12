@@ -114,12 +114,12 @@ class ContactContainer extends Component {
               {this.gitHubText()}
             </div>
 
-            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
+            {/** <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
               <a href="https://twitter.com/danmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
                 <i className="fab fa-twitter" onMouseEnter={() => this.twitterEnter()}></i>
               </a>
               {this.twitterText()}
-            </div>
+            </div> **/}
 
             <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.linkedInLeave()}>
               <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
@@ -142,8 +142,6 @@ class ContactContainer extends Component {
             <a href="mailto:danmjung@gmail.com" target="_top" style={{ textDecoration: "none", color: "white" }}><i className="fas fa-envelope emailicon"></i></a><span>&nbsp; danmjung@gmail.com</span>
             <br />
             <i class="fas fa-mobile"></i><span>&nbsp;&nbsp; +1 917 250 2296</span>
-            <br />
-            <a href="https://angel.co/daniel-jung-14" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }}><i class="fab fa-angellist"></i></a><span>&nbsp;&nbsp; daniel-jung-14</span>
 
           </div>
 
