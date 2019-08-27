@@ -114,12 +114,12 @@ class ContactContainer extends Component {
               {this.gitHubText()}
             </div>
 
-            {/** <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
-              <a href="https://twitter.com/danmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
-                <i className="fab fa-twitter" onMouseEnter={() => this.twitterEnter()}></i>
-              </a>
-              {this.twitterText()}
-            </div> **/}
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0" }} onMouseLeave={() => this.mediumLeave()}>
+                <a href="https://medium.com/@danielmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+                  <i className="fab fa-medium" onMouseEnter={() => this.mediumEnter()}></i>
+                  {this.mediumText()}
+                </a>
+            </div>
 
             <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.linkedInLeave()}>
               <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
@@ -128,11 +128,11 @@ class ContactContainer extends Component {
               </a>
             </div>
 
-            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0" }} onMouseLeave={() => this.mediumLeave()}>
-                <a href="https://medium.com/@danielmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
-                  <i className="fab fa-medium" onMouseEnter={() => this.mediumEnter()}></i>
-                  {this.mediumText()}
-                </a>
+            <div className="social-icon" style={{ fontSize: "1.5em", color: "#BFC0C0"}} onMouseLeave={() => this.twitterLeave()}>
+              <a href="https://twitter.com/danmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+                <i className="fab fa-twitter" onMouseEnter={() => this.twitterEnter()}></i>
+              </a>
+              {this.twitterText()}
             </div>
           </div>
 

@@ -44,8 +44,11 @@ class HomePage extends Component {
           <a href="https://medium.com/@danielmjung" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0", marginLeft: "10px", marginRight: "10px" }}>
             <i className="fab fa-medium" style={{ fontSize:  "24px" }}></i>
           </a>
-          <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+          <a href="https://www.linkedin.com/in/danielmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0", marginRight: "10px" }}>
             <i className="fab fa-linkedin-in" style={{ fontSize:  "24px" }}></i>
+          </a>
+          <a href="https://www.twitter.com/danmjung/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#BFC0C0" }}>
+            <i className="fab fa-twitter" style={{ fontSize:  "24px" }}></i>
           </a>
 
 

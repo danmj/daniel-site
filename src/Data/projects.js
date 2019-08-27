@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Giveley",
+    summary: "Customer-facing website for high-end jewelry wholesaler",
+    image: "https://i.imgur.com/A2YNjZM.png",
+    frontend_url: "",
+    backend_url: "",
+    demo_url: "",
+  },
+  {
     title: "eCommercePlate",
     summary: "A boilerplate for creating a modern ecommerce website",
     image: "https://miro.medium.com/max/1400/1*rcJxxFNGHjCDva_lNEKvcQ.png",
